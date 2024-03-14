@@ -21,7 +21,7 @@ function fillTable(tableId, motorcycleInfo, desiredCC, desiredCategory) {
     thead.appendChild(headerRow);
     motorcycleTable.appendChild(thead);
 
-    // Fill table with data by all cc's all categegories or cc/category given in parameter change
+    // Fill table with data by all cc's all categegories or cc/category given in parameter
     for (const motorcycle of motorcycleInfo) {
         // Check for the desiredCc and desiredCategory parameter in the method
         if (desiredCC === 'allCc' && desiredCategory === 'allCategories' ||
