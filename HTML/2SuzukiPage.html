@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2 Suzuki &#x1F600</title>
+    <link rel="stylesheet" href="/CSS Stylesheet/styleHeader.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleTable.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleInfoBox.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="header">
+            <a href="1HomePage.html" class="homeButton"></i>Home</a>
+            <div class="header-right">
+                <a href="1HomePage.html">All Motorcycles</a>
+                <a class="active" href="2SuzukiPage.html">Suzuki</a>
+                <a href="3YamahaPage.html">Yamaha</a>
+                <a href="4KawasakiPage.html">Kawasaki</a>
+            </div>
+        </div>
+
+        <div class="Motorcycle-info-box">
+            <h2>Suzuki motorcycles</h2>
+            <p>Suzuki, another Japanese giant, has been crafting motorcycles for decades. Their iconic SV650, with 76
+                horsepower, is a favorite among riders.</p>
+            <p>But Suzuki’s journey began with weaving looms and later expanded to cars and motorcycles. Today, they’re
+                known for their sporty bikes and reliable engineering.
+            </p>
+        </div>
+
+        <div class="header">
+            <div id="myBtnContainer">
+
+                <a onclick="fillTable('motorcycleTable', suzukiMotorcycles, 'allCc', 'allCategories')">
+                    Show all</a>
+                <a onclick="fillTable('motorcycleTable', suzukiMotorcycles, 'allCc', 'Adventure')"> Show Adventure</a>
+                <a onclick="fillTable('motorcycleTable', suzukiMotorcycles, 'allCc', 'Street')"> Show Street</a>
+                <a onclick="fillTable('motorcycleTable', suzukiMotorcycles, 'allCc', 'Supersport')"> Show
+                    Supersport</a>
+
+                <div class="header-right">
+                    <a onclick="sortTable(4)">Sort CC's</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table id="motorcycleTable">
+            </table>
+        </div>
+
+        <!-- Importing Javascript scripts -->
+        <script src="/Javascript/Sorting.js"></script>
+
+        <script src="/Javascript/motorcycleLists.js"></script>
+        <script src="/Javascript/fillTable.js"></script>
+
+        <!-- Runs the script to show all the motorcycles based on Category when loading the page -->
+        <script>fillTable('motorcycleTable', suzukiMotorcycles, 'allCc', 'allCategories')</script>
+    </main>
+</body>
+
+</html>

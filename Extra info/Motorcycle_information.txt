@@ -1,0 +1,38 @@
+All Motorcycles Homepage
+Text AI generated
+Welcome to our motorcycle showcase! On this page, we proudly present three iconic brands: Kawasaki,
+                Suzuki, and Yamaha. These legendary manufacturers have left their tire tracks on the highways of
+                history, thrilling riders with their cutting-edge designs, powerful engines, and adrenaline-pumping
+                performance.
+
+Brand       Model                   BuildYear       Category            CC          ALT
+Suzuki      V-Strom 800DE           2024            Adventure           800         Picture of a Suzuki V-Strom 800DE 2024
+Suzuki      V-Strom DL1050          2024            Adventure           1050    	Picture of a Suzuki V-Strom DL1050 2024
+Suzuki      GSX-1000GT              2024            Street              1000    	Picture of a Suzuki GSX-1000GT 2024
+Suzuki      GSX-S1000GX             2024            Street              1000    	Picture of a Suzuki GSX-1000GX 2024
+Suzuki      GSX-R 1300 Hayabusa     2024            Supersport          1300    	Picture of a Suzuki GSX-R 1300 Hayabusa 2024
+
+Suzuki Text AI generated
+Suzuki, another Japanese giant, has been crafting motorcycles for decades. Their iconic SV650, with 76 horsepower, is a favorite among riders. But Suzuki’s journey began with weaving looms and later expanded to cars and motorcycles. Today, they’re known for their sporty bikes and reliable engineering.
+
+
+Brand       Model                   BuildYear       Category            CC          ALT
+Yamaha      MT-10 Sport             2024            Supersport          1000        Picture of a Yamaha MT-10 Supersport 2024
+Yamaha      XSR700 Legacy           2023            Sport Heritage      700         Picture of a Yamaha XSR700 Legacy 2023
+Yamaha      XTZ700D Ténéré          2024            Adventure           700         Picture of a Yamaha XTZ700D Ténéré 2024
+Yamaha      YZF1000R1SPL R1M        2022            Supersport          1000        Picture of a Yamaha YZF1000R1SPL R1M 2022
+Yamaha      MT09TRDX Tracer         2023            Sport Touring       900         Picture of a Yamaha MT09TRDX Tracer 2023
+
+Yamaha Text AI generated
+Yamaha, a renowned Japanese brand, has a rich history in motorcycling. They’re not just about motorcycles, though. Did you know they started as a piano manufacturer? Over the years, Yamaha has become synonymous with high-performance bikes, jet skis, and even snowmobiles.
+
+
+Brand       Model                   BuildYear       Category            CC          ALT
+Kawasaki    Versys 1000 SE          2024            Adventure           1000        Picture of a Kawasaki Versys SE 1000 2024
+Kawasaki    Z H2 SE                 2024            Supersport          1000        Picture of a Kawasaki Z H2 SE 2024
+Kawasaki    Ninja H2R               2024            Hypersport          1000        Picture of a Kawasaki Ninja H2R 2024
+Kawasaki    Eliminator 500 SE       2024            Urban Cruiser       500         Picture of a Kawasaki Eliminator 500 SE 2024
+Kawasaki    Kawasaki Vulcan S       2024            Urban Cruiser       650         Picture of a Kawasaki Kawasaki Vulcan S 2024
+
+Kawasaki Text AI generated
+Kawasaki, with its green machines, has left an indelible mark on the motorcycle world. Their Z650, now sleeker and lighter, boasts 68 horsepower. Interestingly, Kawasaki started as a shipbuilding company. From ships to motorcycles, they’ve mastered the art of speed and power.

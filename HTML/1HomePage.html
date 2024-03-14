@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 All Motorcycles &#x1F600</title>
+    <link rel="stylesheet" href="/CSS Stylesheet/styleHeader.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleTable.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleInfoBox.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="header">
+            <a href="1HomePage.html" class="homeButton">Home &#128507;</a>
+            <div class="header-right">
+                <a class="active" href="1homePage.html">All Motorcycles</a>
+                <a href="2SuzukiPage.html">Suzuki</a>
+                <a href="3YamahaPage.html">Yamaha</a>
+                <a href="4KawasakiPage.html">Kawasaki</a>
+            </div>
+        </div>
+
+        <div class="Motorcycle-info-box">
+            <h2>Discover the World of Motorcycles</h2>
+            <p>Welcome to our motorcycle showcase! On this page, we proudly present three iconic brands: Kawasaki,
+                Suzuki, and Yamaha. These legendary manufacturers have left their tire tracks on the highways of
+                history, thrilling riders with their cutting-edge designs, powerful engines, and adrenaline-pumping
+                performance.
+            </p>
+        </div>
+
+        <div class="header">
+            <div id="myBtnContainer">
+                <a onclick="fillTable('motorcycleTable', allMotorcycles, 'allCc', 'allCategories')"> Show all CC's</a>
+                <a onclick="fillTable('motorcycleTable', allMotorcycles, 'lessThan651CC', 'allCategories')"> Show <651CC</a>
+                <a onclick="fillTable('motorcycleTable', allMotorcycles, 'between651And999CC', 'allCategories')"> Show >650 and <1000CC</a>
+                <a onclick="fillTable('motorcycleTable', allMotorcycles, 'moreThan999CC', 'allCategories')"> Show >999CC</a>
+
+                <div class="header-right">
+                    <a onclick="sortTable(4)">Sort CC's</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table id="motorcycleTable">
+            </table>
+        </div>
+
+        <!-- Importing Javascript scripts -->
+        <script src="/Javascript/Sorting.js"></script>
+
+        <script src="/Javascript/fillTable.js"></script>
+        <script src="/Javascript/motorcycleLists.js"></script>
+        <script src="/Javascript/test.js"></script>
+
+        <!-- Runs the script to show all the motorcycles based on CC when loading the page -->
+        <script>fillTable('motorcycleTable', allMotorcycles, 'allCc', 'allCategories')</script>
+        <script>getData()</script>
+
+    </main>
+</body>
+
+</html>

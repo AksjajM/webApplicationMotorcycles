@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 4 Kawasaki &#x1F600</title>
+    <link rel="stylesheet" href="/CSS Stylesheet/styleHeader.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleTable.css">
+    <link rel="stylesheet" href="/CSS Stylesheet/styleInfoBox.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="header">
+            <a href="1HomePage.html" class="homeButton">Home</a>
+            <div class="header-right">
+                <a href="1HomePage.html">All Motorcycles</a>
+                <a href="2SuzukiPage.html">Suzuki</a>
+                <a href="3YamahaPage.html">Yamaha</a>
+                <a class="active" href="4KawasakiPage.html">Kawasaki</a>
+            </div>
+        </div>
+
+        <div class="Motorcycle-info-box">
+            <h2>Kawasaki motorcycles</h2>
+            <p>Kawasaki, with its green machines, has left an indelible mark on the motorcycle world. Their Z650, now
+                sleeker and lighter, boasts 68 horsepower.</p>
+            <p>Interestingly, Kawasaki started as a shipbuilding company. From ships to motorcycles, they’ve mastered
+                the art of speed and power.
+            </p>
+        </div>
+
+        <div class="header">
+            <div id="myBtnContainer">
+
+                <a onclick="fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'allCategories')"> Show all</a>
+                <a onclick="fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'Adventure')"> Show
+                    Adventure</a>
+                <a onclick="fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'Hypersport')"> Show
+                    Hypersport</a>
+                <a onclick="fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'Supersport')"> Show
+                    Supersport</a>
+                <a onclick="fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'Urban Cruiser')"> Show Urban
+                    Cruiser</a>
+
+                <div class="header-right">
+                    <a class="buttonSort" onclick="sortTable(4)">Sort CC's</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table id="motorcycleTable">
+            </table>
+        </div>
+
+        <!-- Importing Javascript scripts -->
+        <script src="/Javascript/Sorting.js"></script>
+
+        <script src="/Javascript/fillTable.js"></script>
+        <script src="/Javascript/motorcycleLists.js"></script>
+
+        <!-- Runs the script to show all the motorcycles based on Category when loading the page -->
+        <script>fillTable('motorcycleTable', kawasakiMotorcycles, 'allCc', 'allCategories')</script>
+    </main>
+</body>
+
+</html>
